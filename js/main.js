@@ -35,7 +35,7 @@ let intervalId = setInterval(() => {
 function createChicken() {
   if (photoCount <= 70) {
     var myChicken = document.createElement('img')
-    myChicken.setAttribute('src', '/img/chicken.png');
+    myChicken.setAttribute('src', './img/chicken.png');
     myChicken.style.width = 85 + 'px';
     Container.append(myChicken);
     photoCount++;

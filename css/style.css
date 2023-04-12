@@ -24,9 +24,3 @@ body{
   -ms-transition: opacity 0.5s , bottom 1s;
   -o-transition: opacity 0.5s , bottom 1s;
 }
-#element {
-  position: absolute;
-  left: 0;
-  top: 0;
-
-}
